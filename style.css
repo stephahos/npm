@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html, body {
+  margin: 50px;
+font-family: 'Poppins';
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+
+  nav {
+    width: 600px;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .npmlogo {
+    width:100px;
+    margin-right: 1rem;
+  }
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+   .npm{ 
+    overflow: hidden;
+   }
+
+   .npm {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    justify-content: space-evenly;
+    flex-direction: row ;
+   }
+
+   .npm input[type=text] {
+    float: center;
+    padding: 6px;
+    background-image:"C:\Users\Benoit Petit\httpsgithub.com\stephahos\lab-html-exercise.git\images\magnifying-glass.png";
+    background-color: #f0eaea;
+    border:1px;
+    width: 1100px;
+    height: 30px;
+  }
+  .searchbutton{
+    background-color: #fb3e44;
+    color:white;
+    border:1px;
+    width: 70px;
+    height: 50px;
+  }
+  .box-join{
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px 15px;
+    margin: 10px 10px 10px;
+    border:1px solid gray;
+    width: 70px;
+    height: 30px;
+}
+
+  .box-log{
+    color:black;
+    text-decoration: none;
+    width: 50px;
+    height: 30px;
+  }
+
+.buildamazing{
+  background-color: rgba(232,217,217,.3);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 600px;
+  padding: 10px;
+  margin: 10px 600px 10px 500px;
+}
+
+.titlebuild{
+  font-size: xx-large;
+}
+.section-text{
+  text-align: center;
+  width: 300px;
+  font-size: small;
+}
+
+.box-plans{
+  background-color: #fb3e44;
+  box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+  text-align: center;
+  text-decoration: none;
+  color:white;
+  width: 150px;
+  height: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.bringbest{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  padding: 10px;
+  margin: 10px 600px 10px 500px;
+}
+
+.bringtext{
+  width:500px;
+  font-size: small;
+ text-align: center;
+}
+
+.box-joinfree{
+  text-decoration: none;
+  color:black
+}
+
+.section3{
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 250px 30px 250px ;
+}
+
+.zeroconfiguration{
+  padding: 20px;
+  font-weight: 200;
+  width: 20em;
+  font-size: small;
+ }
+
+ .titlezero{
+  color: #ED1C24;
+ }
+
+ .teamanagement{
+  font-weight: 200;
+  padding: 20px;
+  width: 20em;
+  font-size: small;
+ }
+ .teamtitle{
+  color: #ED1C24;
+ }
+
+ .familiarfeatures{
+  font-weight: 200;
+  padding: 20px;
+  width: 20em;
+  font-size: small;
+ }
+
+ .familiartitle{
+  color: #ED1C24;
+ }
+
+ .npmaudit{
+  font-weight: 200;
+  padding: 20px;
+  width: 20em;
+  font-size: small;
+ }
+ .npmaudittitle{
+  color: #ED1C24;
+ }
+
+.hexagone {
+    align-items: center;
+    width: 300px;
+    height:auto; 
+    
+   }
+   .imagezeroconfig {
+    width: 40px;
+    height:auto;
+    margin-bottom: 5px; 
+   }
+
+   .imageteam {
+    width: 40px;
+    height:auto; 
+    margin-bottom:5px;
+   }
+
+   .chart {
+    width: 40px;
+    height: auto;
+    margin-bottom: 5px;
+   }
+
+   .familiar {
+    width: 40px;
+    height: auto;
+    margin-bottom: 5px;
+   }
+
+   .box-create{
+    background-color: black;
+    border: 1px;
+    color: white;
+    width:600px;
+    height:300px;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    padding : 10px 110px 10px 110px; 
+    text-align: center;
+    text-decoration: none;
+    margin-left: 650px;
+    margin-right: 500px;
+   }
